@@ -36,3 +36,25 @@ git add .
 git commit -m "INSERT COMMENT HERE"
 git status
 git push
+
+
+Resolving the Error
+The error message suggests two ways to resolve the issue:
+
+git push --set-upstream origin main
+
+This command connects your current local branch (main) to the main branch on the remote repository (origin) and pushes the changes from your local branch to the remote branch.
+The --set-upstream option sets up the connection between the local and remote branches.
+Enabling push.autoSetupRemote configuration:
+
+By enabling the push.autoSetupRemote setting in Git, when you push a local branch that doesn't have a tracking upstream branch, Git automatically sets up the connection to the remote branch.
+To enable this setting, use the command: git config --global push.autoSetupRemote true.
+While both methods can resolve the error, it's generally recommended to use the first approach and explicitly set the upstream branch using --set-upstream.
+
+
+=================================  git issues with main not matching or fatal error ====================
+
+git push --set-upstream origin main
+git config --global push.autoSetupRemote true
+
+================================================================================
