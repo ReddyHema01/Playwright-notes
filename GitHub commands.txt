@@ -57,3 +57,10 @@ While both methods can resolve the error, it's generally recommended to use the 
 git push --set-upstream origin main
 git config --global push.autoSetupRemote true
 
+============================================  Git other ============================================
+
+bash
+git switch main          # Go to the main branch
+git pull origin main     # Get the latest updates
+git merge feature-branch # Merge your changes
+git push origin main     # Share the results
