@@ -72,7 +72,20 @@ https://github.com/ovcharski/playwright-e2e
 
 
 Create a New folder 'Test'
+go to browser - search https://github.com/ovcharski/playwright-e2e
+copy the code 
+https://github.com/ovcharski/playwright-e2e.git
+Go to folder 'Test', right click and select 'open in terminal and paste the copy node and run 
 
+Go to folder 'Test' - you can see the folder "playwright-e2e"
+Right click on the 'Test' Folder - open more options -open in git bash 
+Run the comments 
+git add .
+git commit -m "test"
+git push
+
+npx playwright install
+npx playwright test
 
 =======
 ============================================  Git other ============================================
