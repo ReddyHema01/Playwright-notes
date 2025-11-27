@@ -57,6 +57,7 @@ While both methods can resolve the error, it's generally recommended to use the 
 git push --set-upstream origin main
 git config --global push.autoSetupRemote true
 
+<<<<<<< HEAD
 =======================================
 
 https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master
@@ -73,3 +74,12 @@ https://github.com/ovcharski/playwright-e2e
 Create a New folder 'Test'
 
 
+=======
+============================================  Git other ============================================
+
+bash
+git switch main          # Go to the main branch
+git pull origin main     # Get the latest updates
+git merge feature-branch # Merge your changes
+git push origin main     # Share the results
+>>>>>>> d9d6a6457585146d93e468a81fb6f9758a5ce9c1
