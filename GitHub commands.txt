@@ -57,3 +57,19 @@ While both methods can resolve the error, it's generally recommended to use the 
 git push --set-upstream origin main
 git config --global push.autoSetupRemote true
 
+=======================================
+
+https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master
+
+
+https://github.com/ovcharski/playwright-e2e
+
+[21:08, 24/11/2025] Chetan Work: FOR /L %i IN (1,1,30) DO (mkdir "Day %i")
+[21:08, 24/11/2025] Chetan Work: for making 30 Day directories
+[21:08, 24/11/2025] Chetan Work: copy and paste in to  command prompt
+
+
+
+Create a New folder 'Test'
+
+
